@@ -405,18 +405,22 @@ footer {
   color: #eeeeea;
 }
 
-.mobile-profile-photo {
+img.profile-photo.mobile-profile-photo {
   display: none;
 }
 
 @media (max-width: 820px) {
-  .desktop-profile-photo {
+  img.profile-photo.desktop-profile-photo {
     display: none;
   }
 
-  .mobile-profile-photo {
+  img.profile-photo.mobile-profile-photo {
     display: block;
-    width: 160px;
-    margin-top: 28px;
+    width: 112px;
+    height: 112px;
+    max-width: 112px;
+    margin: 24px auto 0;
+    object-fit: cover;
+    border-radius: 50%;
   }
 }
