@@ -404,3 +404,19 @@ footer {
 .cv-detail-link:focus-visible {
   color: #eeeeea;
 }
+
+.mobile-profile-photo {
+  display: none;
+}
+
+@media (max-width: 820px) {
+  .desktop-profile-photo {
+    display: none;
+  }
+
+  .mobile-profile-photo {
+    display: block;
+    width: 160px;
+    margin-top: 28px;
+  }
+}
