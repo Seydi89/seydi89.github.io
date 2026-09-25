@@ -428,7 +428,6 @@ img.profile-photo.mobile-profile-photo {
     height: 112px;
     max-width: 112px;
     margin: 0;
-    object-fit: cover;
   }
 
   .intro-row .opening {
