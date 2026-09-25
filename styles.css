@@ -414,13 +414,26 @@ img.profile-photo.mobile-profile-photo {
     display: none;
   }
 
+  .intro-row {
+    display: grid;
+    grid-template-columns: 112px minmax(0, 1fr);
+    gap: 18px;
+    align-items: center;
+    margin-top: 24px;
+  }
+
   img.profile-photo.mobile-profile-photo {
     display: block;
     width: 112px;
     height: 112px;
     max-width: 112px;
-    margin: 24px auto 0;
+    margin: 0;
     object-fit: cover;
-    border-radius: 50%;
+  }
+
+  .intro-row .opening {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.45;
   }
 }
